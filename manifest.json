@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Multi-Search Extension",
+  "version": "1.0",
+  "description": "Search multiple engines with a single query",
+  "permissions": ["tabs","tabGroups","storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  }
+}
